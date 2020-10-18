@@ -1,4 +1,4 @@
-from ti_83_functions.get_key import get_key
+from ti_83_plus_programs.ti_83_functions.get_key import get_key
 
 
 def create_menu(menu_items):

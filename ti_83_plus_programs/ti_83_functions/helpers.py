@@ -1,3 +1,4 @@
+import os
 import platform
 OS = platform.system()
 if OS == 'Windows':
@@ -13,3 +14,11 @@ def get_key():
         return user_input
     else:
         return str(get_keyboard_input.getch())
+
+
+def clear():
+    if OS == 'Windows':
+        os.system('cls')
+    else:
+        os.system('clear')
+    return
