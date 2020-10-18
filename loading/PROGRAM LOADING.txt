@@ -1,0 +1,26 @@
+PROGRAM:LOADING
+:randInt(3,10)>B
+:For(A,1,B)
+:For(C,1,10)
+:Output(8,7,"   ")
+:End
+:For(C,1,10)
+:Output(8,7,"*  ")
+:End
+:For(C,1,10)
+:Output(8,7,"** ")
+:End
+:For(C,1,10)
+:Output(8,7,"***")
+:End
+:For(C,1,10)
+:Output(8,7," **")
+:End
+:For(C,1,10)
+:Output(8,7,"  *")
+:End
+:For(C,1,10)
+:Output(8,7,"   ")
+:End
+:End
+:Return
